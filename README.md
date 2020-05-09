@@ -4,11 +4,11 @@
 
 # 加入好友
 
-<img height="200" border="0" alt="QRcode" src="https://i.imgur.com/b1nlXa6.png">
+<img height="200" border="0" alt="QRcode" src="https://i.imgur.com/aDganI9.png">
 
 掃描 QR code 或是點選我!!
 
-<a href="https://line.me/R/ti/p/%40217vobcy"><img height="50" border="0" alt="加入好友" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"></a>
+<a href="https://line.me/R/ti/p/%40653fdnks"><img height="50" border="0" alt="加入好友" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"></a>
 
 # 開發
 
