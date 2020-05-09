@@ -12,7 +12,7 @@ const files = tsvPaths.map((tsvPath) => ({
   file: fs.readFileSync(path.resolve(tsvPath), 'utf8'),
 }));
 
-const columnsFiles = ['plants'];
+const columnsFiles = ['plants - 項目1'];
 
 const parsedFiles = files.map(({ basename, file }) => ({
   basename,
