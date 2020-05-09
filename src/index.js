@@ -33,9 +33,9 @@ async function 植物技巧(context, { match }) {
   )[0];
   const response = `【${plant['植物']}】${
     plant['別名'] ? '(' + plant['別名'] + ')' : ''
-    } ☘️
+  } ☘️
 
-種植方式 👉 ${plant['種植方式']}
+建議種植方式 👉 ${plant['種植方式']}
 施肥週期 ♻️ ${plant['施肥週期']}
 ${plant['特性'] ? '特性 🤔 ' + plant['特性'] : ''}
 
@@ -49,11 +49,11 @@ ${plant['特性'] ? '特性 🤔 ' + plant['特性'] : ''}
 async function 項目(context) {
   let response = `1. ${plantList[0]['植物']}(${
     plantList[0]['別名'] ? '(' + plantList[0]['別名'] + ')' : ''
-    })`;
+  })`;
   for (let i = 1; i < plantList.length; i++) {
     response += `\n${i + 1}. ${plantList[i]['植物']} ${
       plantList[i]['別名'] ? '(' + plantList[i]['別名'] + ')' : ''
-      }`;
+    }`;
   }
   await context.sendText(response);
 }
