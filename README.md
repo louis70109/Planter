@@ -1,62 +1,29 @@
-This project was bootstrapped with
-[Bottender](https://github.com/Yoctol/bottender) init script.
+# 農夫小幫手
 
-## Sending Feedback
+因為遠端工作流行發現大家似乎對於種植這個技能似乎有點興趣，就將我多年來種植的經驗 ➕ google 來的知識結合成這隻機器人。
 
-Always feel free to open an issue to
-[Bottender](https://github.com/Yoctol/bottender/issues) repository.
+# 加入好友
 
-## Configuration
+<img height="200" border="0" alt="QRcode" src="https://i.imgur.com/b1nlXa6.png">
 
-### The `bottender.config.js` File
+掃描 QR code 或是點選我!!
 
-Bottender configuration file. You can use this file to provide settings for the session store and channels.
+<a href="https://line.me/R/ti/p/%40217vobcy"><img height="50" border="0" alt="加入好友" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"></a>
 
-### The `.env` File
+# 開發
 
-Bottender utilizes the [dotenv](https://www.npmjs.com/package/dotenv) package to load your environment variables when developing your app.
-
-To make the bot work, you must put required environment variables into your `.env` file.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm run dev`
-
-Runs the app in development mode.<br>
-The bot will automatically reload if you make changes to the code.<br>
-By default, server runs on [http://localhost:5000](http://localhost:5000) and ngrok runs on [http://localhost:4040](http://localhost:4040).
-
-To run in [Console Mode](https://bottender.js.org/docs/en/the-basics-console-mode), provide the `--console` option:
-
-```sh
-npm run dev -- --console
-yarn dev --console
+```
+git clone https://github.com/louis70109/Planter.git
+cd Planter
+cp .env.example .env
+npm install
+npx bottender dev  # --console
 ```
 
-### `npm start`
+# 我也想幫忙
 
-Runs the app in production mode.<br>
-By default, server runs on [http://localhost:5000](http://localhost:5000).
+如果你也有些經驗想透過這隻機器人讓大家知道的話，歡迎聯絡我或來信 louis70109@gmail.com，我們可以來聊聊 🙂
 
-To run in [Console Mode](https://bottender.js.org/docs/en/the-basics-console-mode), provide the `--console` option:
+# 授權
 
-```sh
-npm start -- --console
-yarn start --console
-```
-
-### `npm run lint`
-
-Runs the linter rules using [Eslint](https://eslint.org/).
-
-### `npm test`
-
-Runs the test cases using [Jest](https://jestjs.io/).
-
-## Learn More
-
-To learn Bottender, check out the [Bottender documentation](https://bottender.js.org/docs/en/getting-started).
-
-For more examples, see [Bottender examples](https://github.com/Yoctol/bottender/tree/master/examples).
+MIT License
