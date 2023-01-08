@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "bottender": "1.4.4",
+    "bottender": "1.5.5",
     "csv-parse": "^4.9.0"
   },
   "devDependencies": {
